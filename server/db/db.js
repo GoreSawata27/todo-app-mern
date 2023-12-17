@@ -3,7 +3,7 @@ mongoose.set("strictQuery", false);
 
 const dbb = mongoose
   .connect(
-    "mongodb+srv://apis:apis@clust er0.rmvxyir.mongodb.net/ToDoApp?retryWrites=true&w=majority",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
